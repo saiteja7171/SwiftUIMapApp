@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		C3D62ACA2C22773C00194437 /* SwiftUIMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62AC92C22773C00194437 /* SwiftUIMapAppApp.swift */; };
-		C3D62ACC2C22773C00194437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62ACB2C22773C00194437 /* ContentView.swift */; };
-		C3D62ACE2C22773F00194437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D62ACD2C22773F00194437 /* Assets.xcassets */; };
 		C3D62AD12C22773F00194437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D62AD02C22773F00194437 /* Preview Assets.xcassets */; };
+		C3D62AD82C233CD300194437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D62AD72C233CD200194437 /* Assets.xcassets */; };
+		C3D62ADD2C233D5400194437 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62ADC2C233D5400194437 /* Location.swift */; };
+		C3D62AE02C233E3700194437 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62ADF2C233E3700194437 /* LocationsDataService.swift */; };
+		C3D62AE22C233EF500194437 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62AE12C233EF500194437 /* LocationsView.swift */; };
+		C3D62AE42C236A9900194437 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62AE32C236A9900194437 /* LocationsViewModel.swift */; };
+		C3D62AE82C2502C700194437 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62AE72C2502C700194437 /* LocationsListView.swift */; };
+		C3D62AEA2C25CC0100194437 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62AE92C25CC0100194437 /* LocationPreviewView.swift */; };
+		C3D62AEC2C25EC3600194437 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62AEB2C25EC3600194437 /* LocationMapAnnotationView.swift */; };
+		C3D62AEE2C25F18D00194437 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D62AED2C25F18D00194437 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3D62AC62C22773C00194437 /* SwiftUIMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D62AC92C22773C00194437 /* SwiftUIMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapAppApp.swift; sourceTree = "<group>"; };
-		C3D62ACB2C22773C00194437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C3D62ACD2C22773F00194437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3D62AD02C22773F00194437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3D62AD72C233CD200194437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3D62ADC2C233D5400194437 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C3D62ADF2C233E3700194437 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		C3D62AE12C233EF500194437 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		C3D62AE32C236A9900194437 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		C3D62AE72C2502C700194437 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		C3D62AE92C25CC0100194437 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		C3D62AEB2C25EC3600194437 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		C3D62AED2C25F18D00194437 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		C3D62AEF2C29A79800194437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +66,13 @@
 		C3D62AC82C22773C00194437 /* SwiftUIMapApp */ = {
 			isa = PBXGroup;
 			children = (
+				C3D62AEF2C29A79800194437 /* Info.plist */,
+				C3D62ADE2C233E2500194437 /* DataServices */,
+				C3D62ADB2C233D4100194437 /* Model */,
+				C3D62ADA2C233D3A00194437 /* ViewModel */,
+				C3D62AD92C233D2F00194437 /* Views */,
 				C3D62AC92C22773C00194437 /* SwiftUIMapAppApp.swift */,
-				C3D62ACB2C22773C00194437 /* ContentView.swift */,
-				C3D62ACD2C22773F00194437 /* Assets.xcassets */,
+				C3D62AD72C233CD200194437 /* Assets.xcassets */,
 				C3D62ACF2C22773F00194437 /* Preview Content */,
 			);
 			path = SwiftUIMapApp;
@@ -65,6 +84,42 @@
 				C3D62AD02C22773F00194437 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3D62AD92C233D2F00194437 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3D62AE12C233EF500194437 /* LocationsView.swift */,
+				C3D62AE72C2502C700194437 /* LocationsListView.swift */,
+				C3D62AE92C25CC0100194437 /* LocationPreviewView.swift */,
+				C3D62AEB2C25EC3600194437 /* LocationMapAnnotationView.swift */,
+				C3D62AED2C25F18D00194437 /* LocationDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3D62ADA2C233D3A00194437 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3D62AE32C236A9900194437 /* LocationsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C3D62ADB2C233D4100194437 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3D62ADC2C233D5400194437 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3D62ADE2C233E2500194437 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				C3D62ADF2C233E3700194437 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +180,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D62AD82C233CD300194437 /* Assets.xcassets in Resources */,
 				C3D62AD12C22773F00194437 /* Preview Assets.xcassets in Resources */,
-				C3D62ACE2C22773F00194437 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3D62ACC2C22773C00194437 /* ContentView.swift in Sources */,
+				C3D62AE02C233E3700194437 /* LocationsDataService.swift in Sources */,
+				C3D62AE22C233EF500194437 /* LocationsView.swift in Sources */,
+				C3D62AEE2C25F18D00194437 /* LocationDetailView.swift in Sources */,
+				C3D62ADD2C233D5400194437 /* Location.swift in Sources */,
+				C3D62AE82C2502C700194437 /* LocationsListView.swift in Sources */,
+				C3D62AEA2C25CC0100194437 /* LocationPreviewView.swift in Sources */,
 				C3D62ACA2C22773C00194437 /* SwiftUIMapAppApp.swift in Sources */,
+				C3D62AE42C236A9900194437 /* LocationsViewModel.swift in Sources */,
+				C3D62AEC2C25EC3600194437 /* LocationMapAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +336,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMapApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIMapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyLocations;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,9 +365,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMapApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIMapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyLocations;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
